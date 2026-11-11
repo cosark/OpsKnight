@@ -261,6 +261,10 @@ OpsKnight ships a built-in [Model Context Protocol](https://modelcontextprotocol
 | <img src="https://img.shields.io/badge/-Swarm-2496ED?style=flat&logo=docker&logoColor=white" alt="">         | Integrated or split across nodes | Multi-node Docker estates   | [Docker Swarm →](https://opsknight.com/docs/v2.0.0/operate/deploy/swarm/)            |
 | <img src="https://img.shields.io/badge/-Helm-0F1689?style=flat&logo=helm&logoColor=white" alt="">            | Schema-validated chart           | Production Kubernetes       | [Helm →](https://opsknight.com/docs/v2.0.0/operate/deploy/helm/)                     |
 | <img src="https://img.shields.io/badge/-Kustomize-326CE5?style=flat&logo=kubernetes&logoColor=white" alt=""> | Bases and overlays               | GitOps with Argo CD or Flux | [Kustomize →](https://opsknight.com/docs/v2.0.0/operate/deploy/kustomize/)           |
+| [![Deploy on RepoCloud][repocloud-btn]][repocloud-deploy]                                                    | VPS deployed by RepoCloud        | Skipping server setup       | [RepoCloud →](https://repocloud.io/details/OpsKnight/)                               |
+
+[repocloud-btn]: https://dnk92k33or340.cloudfront.net/deploy-20px.png
+[repocloud-deploy]: https://repocloud.io/details/OpsKnight/
 
 PostgreSQL 14 or later is required. For production, pin the tested multi-architecture image digest, size the database connection budget and complete the topology's acceptance checklist. [Choose a topology →](https://opsknight.com/docs/v2.0.0/operate/deploy/) · [Plan capacity →](https://opsknight.com/docs/v2.0.0/operate/capacity/choose-deployment/)
 
